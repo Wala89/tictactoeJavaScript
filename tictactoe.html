@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+  
+	<head>
+    
+		<meta charset="utf-8" /> <!-- Einbindung Sonderzeichen üäö etc. -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+		<title>TicTacToe - Das Spiel</title> <!-- Titel der Webseite -->
+	
+		<link rel="stylesheet" href="style.css"> <!-- Einbindung CSS Datei -->
+	
+		<script language="javascript" type="text/javascript" src="script.js"></script> <!-- Einbindung JavaScript Datei -->
+ 
+	</head>
+  
+	<body><!-- Sichtbarer Dokumentinhalt im body -->
+	
+		<header> <!-- Der Kopfbereich der Homepage -->
+			<h1><u>TicTacToe - Das Spiel</u></h1>
+		</header>
+	
+		<main> <!-- Der Mainkontentbereich der Homepage -->
+			
+			<div id="test">
+				<button title="Setzt das Spiel zurück!" onclick="game.reset()">Reset</button>
+				</br>
+			</div>
+		</main>
+	
+		<aside> <!-- Der Seitenbereich der Homepage -->
+		</aside>
+	
+		<footer> <!-- Der Fußbereich der Homepage -->
+			<p> - Erstellt von Xyris - </p>
+		</footer>
+		
+		<script>
+			game.init();
+		</script>
+  
+	</body>
+
+</html>
